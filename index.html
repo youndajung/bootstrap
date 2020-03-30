@@ -3,35 +3,168 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta charset="UTF-8">
-	<title>::깃허브에올리기::</title>
+	<title>::bootstrap을 이용한 사이트시안입니다::</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/bootstrap.min.js"></script>
-	<script src="jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
 	<style>
 		.bg-teal{background-color: teal;}
+		.bg-img1{
+			background-image: url(images/bg-top.jpg);
+			background-size:cover;
+			background-position: top;
+		}
+		.f-1rem{font-size: 1.2rem};
+		
+
 	</style>
 </head>
 <body>
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-teal">
-		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <a class="navbar-brand" href="#!">Navbar</a>
+		<div class="bg-dark">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <a class="navbar-brand" href="#!">LOGO</a>
+				
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				    <ul class="navbar-nav mt-2 mt-md-0 ml-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#!">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#!">Naver</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#!">Daum</a>
+				      </li>
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+		</div>
+		<div class=" bg-img1 text-white d-flex align-item-center pt-4" style="height: 400px;">
+			 <div class="container d-flex flex-column align-items-center">
+			    <h1 class="pb-3">Lorem ipsum dolor sit amet.</h1>
+			    <p class="d-md-block text-center mb-5 f-1rem">This is a modified jumbotronthat occupiesthe <br> entire horizontal space of its parent. </p>
+			    <div class="btn btn-primary mb-3">Upload Project</div>
+			    <img class="mb-1" src="images/drop-icon.png" alt="">
+			    <p class=" d-md-block text-center">This is a modified jumbotronthat occupiesthe <br> entire horizontal 
+			 </div>
+		</div>
+<!-- content -->
+		<div class="contentBox01 bg-light">
+			<div class="container d-flex align-item-center" style="height: 400px;">
+				<div class="row d-flex align-item-center m-auto">
+					<div class="content01 col-12 col-md-5">
+						<h2>Lorem ipsum dolor sit amet.</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, itaque!</p>
+						<div class="btn btn-primary">more</div>
+					</div>
+					<div class="content02 col-12 col-md-7">
+						<img src="images/symu-panel-1.png" style="width: 500px;" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contentBox02 bg-white">
+			<div class="container d-flex align-item-center " style="height: 450px;">
+				<div class="row p-5">
+					<div class="content03 col-12 col-md-7">
+						<img src="images/symu-panel-2.png" style="width: 500px;" alt="">
+					</div>
+					<div class="content04 col-12 col-md-5">
+						<h2>Lorem ipsum dolor sit amet.</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, itaque!</p>
+						<div class="btn btn-primary">more</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- content02 -->
+
+		<div class="contentBox02 bg-light">
+			<div class="container d-flex align-item-center " style="height: 450px;">
+				<div class="row p-5">
+					<div class="content04 col-12 col-md-5">
+						<h2>Lorem ipsum dolor sit amet.</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, itaque!</p>
+						<div class="btn btn-primary">more</div>
+					</div>
+					<div class="content03 col-12 col-md-7">
+						<img src="images/home-panel-3.jpg" style="width: 500px;" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- content03 -->
+		<div class="contentBox03 bg-white">
+			<div class="container d-flex align-item-center " style="height: 200px;">
+				<div class="row p-5">
+					<div class="content04 d-flex col-12 col-md-6">
+						<div class="letterWrap d-flex align-item-center">
+							<div class="l_text">
+								<img src="images/envelope-icon.jpg" alt="">
+							</div>
+							<div class="l_img ">
+								<h3>Lorem ipsum.</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, in!</p>
+							</div>
+						</div>
+					</div>
+					<div class="content03 d-flex col-12 col-md-6">
+						<div class="letterWrap d-flex align-item-center">
+							<div class="l_text">
+								<img src="images/lock-icon.jpg" alt="">
+							</div>
+							<div class="l_img ">
+								<h3>Lorem ipsum.</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, in!</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- content04 -->
+		<div class="contentBox04 bg-dark d-flex align-item-center">
+			<div class="container d-flex flex-column" style="height: 200px;">
+				<div class="row p-5" style="color:#fff">
+					<div class="content04 text-center col-2 ">
+						<h3 class="pb-2"></style>123</h3>
+						<p>TODAY UPLOADS</p>
+					</div>
+					<div class="content04 text-center col-2 ">
+						<h3 class="pb-2"></style>123</h3>
+						<p>TODAY UPLOADS</p>
+					</div>
+					<div class="content03 col-4  d-flex flex-column">
+						<h3 style="text-align:center"> 클릭하세요</h3>
+						<div class="btn btn-danger"> SIGN UP NOW</div>
+					</div>
+					<div class="content04 text-center col-2 ">
+						<h3 class="pb-2"></style>123</h3>
+						<p>TODAY UPLOADS</p>
+					</div>
+					<div class="content04 text-center col-2 ">
+						<h3 class="pb-2"></style>123</h3>
+						<p>TODAY UPLOADS</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		
-		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-		    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#!">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#!">Link</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
-	</div>
+		<div class="contentBox05 bg-teal d-flex align-item-center f-1rem">
+			<div class="container d-flex flex-column" style="height: 200px;">
+				<div class="row p-5" style="color:#fff">
+					<div class="footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, placeat, voluptas. Earum culpa iste, fugiat, ipsa nostrum nobis. Asperiores officia nostrum, eum. Maxime incidunt non velit, veritatis dignissimos id vero.</div>
+				</div>
+			</div>
+		</div>
 
 </body>
 </html>
